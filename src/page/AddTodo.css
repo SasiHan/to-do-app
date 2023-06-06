@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Nunito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+  }
+.AddContent{
+    display: flex;
+    background-color: #afeeee;
+}
+.AddTodo-Box-Fake{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddTodo-Box{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    width: 55%;
+    height: 60%;
+    background-color: rgb(255, 219 , 192);
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Top-AB{
+    
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+}
+.Top-AB .Date{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: 8%;
+    width: 20%;
+    height: 70%;
+    text-align: center;
+    padding: 0% 2%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.Top-AB .Time{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: 5%;
+    width: 20%;
+    height: 70%;
+    text-align: center;
+    padding: 0% 2%;
+    border: 1px solid;
+    border-radius: 5px;
+}
