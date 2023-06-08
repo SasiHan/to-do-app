@@ -28,13 +28,13 @@
     
     width: 100%;
     height: 10%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .Top-AB .Date{
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 8%;
-    width: 20%;
+    width: 21%;
     height: 70%;
     text-align: center;
     padding: 0% 2%;
@@ -43,12 +43,74 @@
 }
 .Top-AB .Time{
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 5%;
-    width: 20%;
+    width: 21%;
     height: 70%;
     text-align: center;
     padding: 0% 2%;
     border: 1px solid;
     border-radius: 5px;
+}
+.Mid-AB{
+    
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+}
+
+.Mid-AB .Header{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-left: 8%;
+    width: 35%;
+    height: 70%;
+    text-align: center;
+    padding: 0% 2%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.Mid-AB .Subject{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-left: 5%;
+    width: 35%;
+    height: 70%;
+    text-align: center;
+    padding: 0% 2%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.Bottom-AB {
+    margin-top: 3%;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+textarea {
+    margin-left: 8%;
+    resize: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    width: 84%;
+    height: 75%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.BT{
+    display: flex;
+    justify-content: center;
+}
+.Save-BT{
+    border: 1px solid;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    border-radius: 10px;
+    background-color: rgb(226, 252, 151);
+    margin-top: 2%;
+    width: 20%;
+    text-align: center;
 }

@@ -1,10 +1,10 @@
-// import LoginPage from "./page/LoginPage";
-import AddTodo from "./page/AddTodo";
+import LoginPage from "./page/LoginPage";
+// import AddTodo from "./page/AddTodo";
 function App() {
     return (
     <div>
-        {/* <LoginPage/> */}
-        <AddTodo/>
+        <LoginPage/>
+        {/* <AddTodo/> */}
     </div>
     );
 }

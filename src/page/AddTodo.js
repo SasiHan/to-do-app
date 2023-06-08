@@ -10,9 +10,16 @@ function AddTodo () {
                         <input className="Date" type="date"/>
                         <input className="Time" type="time"/>
                     </div>
-                    <input></input>
-                    <input></input>
-                    <input></input>
+                    <div className="Mid-AB">
+                        <input className="Header" type="text"></input>
+                        <input className="Subject" type="text"></input>
+                    </div>
+                    <div className="Bottom-AB">
+                        <textarea className="Detail" ></textarea>
+                        <div className="BT">
+                            <p className="Save-BT">Save!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
