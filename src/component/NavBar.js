@@ -1,7 +1,7 @@
-import "./NavBar.css";
+// import "./NavBar.css";
 function Navbar (){
     return (
-        <div className="Container">
+        <div className="Container-Nav">
             <br></br>
             <p>Add Todo</p>
             <p>Check Todo</p>

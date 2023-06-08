@@ -1,9 +1,10 @@
-import Navbar from "../component/NavBar";
-import './AddTodo.css'
+// import Navbar from "../component/NavBar";
+// import './AddTodo.css'
+// import "./NavBar.css";
 function AddTodo () {
     return (
-        <div className="AddContent">
-            <Navbar/>
+        // <div className="AddContent">
+        //     <Navbar/>
             <div className="AddTodo-Box-Fake">
                 <div className="AddTodo-Box">
                     <div className="Top-AB">
@@ -22,7 +23,7 @@ function AddTodo () {
                     </div>
                 </div>
             </div>
-        </div>
+        // </div>
     );
 }
 

@@ -1,8 +1,7 @@
-import "./LoginPage.css";
-
+// import "./LoginPage.css";
+import { Outlet, Link } from "react-router-dom";
 function LoginPage() {
     return (
-
     <div className="Container">
         <div className="Login-Box">
           <div className="Username"> 
@@ -20,13 +19,12 @@ function LoginPage() {
                 <div className="button">
                 <p className="btnText">Log-in</p>
                 <div className="btnTwo">
-                <p className="btnText2">GO!</p>
+                <Link style={{textDecoration: 'none'}} to={`addtodo`} >
+                <p className="btnText2">Go</p>
+                </Link>
                 </div>
                 </div>
                 </div>
-
-                                                       
-
           {/* </div> */}
         </div>
     </div>
